@@ -75,6 +75,8 @@ git commit -m "Initial commit"
 git push -u origin master
 ```
 
+## Conclusion
+
 There you go, you should now see your brand new personal web page hosted on your GitHub.
 
 Open your favorite navigator and see the magic: https://github.com/username/username.github.io

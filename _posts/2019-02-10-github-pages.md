@@ -3,7 +3,9 @@ layout: post
 author: Vincent
 ---
 
-*GitHub Pages is a static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository.*
+In this tutorial, I will guide you through the process of quickly creating your portfolio/blog using [GitHub Pages](https://pages.github.com/).
+
+> *GitHub Pages is a static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository.*
 
 [GitHub](https://github.com/) initially is a web-based platform for version control using [Git](https://git-scm.com/). Developers can collaborate on open-source projects, share ideas and more.
 
@@ -74,6 +76,18 @@ git add --all
 git commit -m "Initial commit"
 git push -u origin master
 ```
+
+## Advanced techniques
+
+### Change theme
+
+GitHub Pages supports a list of themes that can be found here:
+
+[GitHub Pages themes](https://pages.github.com/themes/)
+
+Jekyll themes:
+
+[Jekyll themes](https://jekyllthemes.io/)
 
 ## Conclusion
 

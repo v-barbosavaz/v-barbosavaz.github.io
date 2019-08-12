@@ -3,7 +3,7 @@ layout: post
 author: Vincent
 ---
 
-AI is a complex and a rapidly evolving field. I want to share some of my tips and resources for your journey as a Data Science student and my recommendations to stay to stay up to date with your Data Science knowledge.
+AI is a complex and a rapidly evolving field. I want to share some of my tips and resources for your journey as a Data Science student and my recommendations to stay up to date with your Data Science knowledge.
 
 > When I write this article, I am still a student. I will feed this article over time with the resources I gather.
 

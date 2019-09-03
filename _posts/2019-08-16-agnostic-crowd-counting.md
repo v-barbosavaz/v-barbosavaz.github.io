@@ -19,6 +19,14 @@ I have tested this new approach on other crowd datasets ([UCF-CC-50](https://www
 
 ___
 
+# Table of Contents
+1. [Motivation](#motivation)
+2. [Approaches](#approaches)
+3. [Datasets](#datasets)
+4. [Generating dot annotated images](#generating-dot-annotated-images)
+5. [The network](#the-network)
+
+
 ### Motivation
 
 Crowd counting and crowd analysis has significant importance from safety perspective.
@@ -27,7 +35,7 @@ Crowd counting and crowd analysis has significant importance from safety perspec
 
 ### Approaches
 
-To estimate the number of people in an image there is two principal approaches : detection-based method and regression-based method.
+To estimate the number of people in an image there are two main approaches : detection-based method and regression-based method.
 
 #### Detection-based counting
 <!--Detector-->
@@ -46,6 +54,8 @@ The network produces a scalar (number of objects) as output which is then compar
 <!--### Experiments-->
 
 ### Datasets
+
+I used these two datasets :
 
 - [UCF-CC-50](https://www.crcv.ucf.edu/data/ucf-cc-50/)
 - [UCF-QNRF](https://www.crcv.ucf.edu/data/ucf-qnrf/)

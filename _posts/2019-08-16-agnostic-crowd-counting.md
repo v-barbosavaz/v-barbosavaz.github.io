@@ -31,7 +31,12 @@ ___
 
 Crowd counting and crowd analysis has significant importance from safety perspective.
 
-![counting people](/img/counting-people.png)
+<!--![counting people](/img/counting-people.png)-->
+<img src="/img/counting-people.png" alt="counting people" style="
+    margin-right: 20%;
+    margin-left: 20%;
+    width: 60%;
+">
 
 ### Approaches
 
@@ -42,14 +47,24 @@ To estimate the number of people in an image there are two main approaches : det
 
 A visual object detector slides along the image to detect object instances in an image like human faces.
 
-![detection-based counting](/img/detection.png)
+<!--![detection-based counting](/img/detection.png)-->
+<img src="/img/detection.png" alt="detection-based counting" style="
+    margin-right: 30%;
+    margin-left: 30%;
+    width: 40%;
+">
 
 #### Regression-based counting
 <!--Regressor-->
 
 The network produces a scalar (number of objects) as output which is then compared to ground truth.
 
-![detection-based counting](/img/regression.png)
+<!--![regression-based counting](/img/regression.png)-->
+<img src="/img/regression.png" alt="regression-based counting" style="
+    margin-right: 30%;
+    margin-left: 30%;
+    width: 40%;
+">
 
 <!--### Experiments-->
 
@@ -66,18 +81,34 @@ I used these two datasets :
 
 ![dot-annotated-img](/img/dot-annotated-img.png)
 
-![dot-img](/img/dot-img.png)
+<!--![dot-img](/img/dot-img.png)-->
+<img src="/img/dot-img.png" alt="dot-img" style="
+    margin-right: 30%;
+    margin-left: 30%;
+    width: 40%;
+">
 
 #### Issues with the dataset
 
-![issues-dots](/img/issues-dots.png)
+<!--![issues-dots](/img/issues-dots.png)-->
+<img src="/img/issues-dots.png" alt="issues-dots" style="
+    margin-right: 20%;
+    margin-left: 20%;
+    width: 60%;
+">
 
+### The basics
+
+<span style="text-decoration:underline">During the training part </span> : The original image **I** is mapped into an dot annotated image : the **ground truth**. At this step we do not use the neural network, only image processing. The same image **I** feeds the neural network to make a **prediction** that approximates the **ground truth**. The difference or delta between the **ground truth** and the **prediction** represents the prediction error. The weights of the DNN (deep neural network) are updated during this step.
+
+<span style="text-decoration:underline">During the testing part </span> : an another image is feed into the DNN (using the previous weights) to produce a prediction. We compare the ground truth of this image with the prediction to compute the loss.
+
+![schematic](/img/schematic.png)
 
 ### The network
 
 ![network](/img/network.png)
 
-![schematic](/img/schematic.png)
 
 <!--#### Implementation-->
 

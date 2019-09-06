@@ -79,6 +79,8 @@ I used these two datasets :
 
 ### Generating dot annotated images
 
+The program takes dot-annotated files as inputs. The **UCF-CC-50** dataset comes with an image and its _.mat_ associated file. This _.mat_ file contains the location of every person's head. In order to generate the dot-annotated file I wrote a simple program that generates an image of points taking the position (x, y) of the heads.
+
 ![dot-annotated-img](/img/dot-annotated-img.png)
 
 <!--![dot-img](/img/dot-img.png)-->
@@ -89,6 +91,8 @@ I used these two datasets :
 ">
 
 #### Issues with the dataset
+
+Generating the dot annotated files in order to produce the ground truth can be a tricky task. As you can see on the image below, some of the locations are wrong. The _.mat_ file associated to the image should locate every person's head. Some locations are approximative (shirt instead of head), others are does not locate the person and even worse some points are out of the image itself !
 
 <!--![issues-dots](/img/issues-dots.png)-->
 <img src="/img/issues-dots.png" alt="issues-dots" style="
@@ -106,6 +110,12 @@ I used these two datasets :
 ![schematic](/img/schematic.png)
 
 ### The network
+
+The network consists of three modules :
+
+- embedding
+- matching
+- and adapting
 
 ![network](/img/network.png)
 

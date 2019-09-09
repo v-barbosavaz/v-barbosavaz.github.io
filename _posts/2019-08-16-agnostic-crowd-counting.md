@@ -79,7 +79,9 @@ I used these two datasets :
 
 ### Generating dot annotated images
 
-The program takes dot-annotated files as inputs. The **UCF-CC-50** dataset comes with an image and its _.mat_ associated file. This _.mat_ file contains the location of every person's head. In order to generate the dot-annotated file I wrote a simple program that generates an image of points taking the position (x, y) of the heads.
+The program takes dot-annotated files as inputs.
+
+The **UCF-CC-50** dataset comes with an image and its _.mat_ associated file. This _.mat_ file contains the location of every person's head. In order to generate these dot-annotated files I wrote a simple program that generates an image of points taking the position (x, y) of the heads.
 
 ![dot-annotated-img](/img/dot-annotated-img.png)
 
@@ -113,11 +115,17 @@ Generating the dot annotated files in order to produce the ground truth can be a
 
 The network consists of three modules :
 
-- embedding
-- matching
-- and adapting
+1. embedding
+2. matching
+3. adapting
 
 ![network](/img/network.png)
+
+In the **embedding module**, the exemplar image patch and the full-resolution image are encoded into a feature vector and a dense feature map, respectively.
+
+In the **matching module**, we learn a discriminative classifier to densely match the exemplar patch to instances in the image.
+
+In the **adapting module**, a fraction of the trained parameters (3% of the network size) are trained to specialize the model.
 
 
 <!--#### Implementation-->

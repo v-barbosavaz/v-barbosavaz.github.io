@@ -98,60 +98,60 @@ Now you should be able to use conda command.
 
 ## Java
 
-Download the last JDK (Java Development Kit):
-
-https://www.oracle.com/technetwork/java/javase/downloads/index.html
+Download the last [JDK (Java Development Kit)](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
 ## Scala
 
 Install Scala either by installing an IDE such as IntelliJ, or **sbt**, Scala's build tool.
 
-https://www.scala-lang.org/download/
+Make sure Java is installed.
 
 ```bash
 brew update
 brew install sbt
 ```
 
+More info: [https://www.scala-lang.org/download/](https://www.scala-lang.org/download/)
+
 ### ScalaFX
 
-http://www.scalafx.org/docs/quickstart/
+Follow these instructions: [http://www.scalafx.org/docs/quickstart/](http://www.scalafx.org/docs/quickstart/)
 
 My advice is to clone the Hello World ScalaFX project (especially for the build.sbt file):
 
-https://github.com/scalafx/scalafx-hello-world
+[https://github.com/scalafx/scalafx-hello-world](https://github.com/scalafx/scalafx-hello-world)
 
 ## R
 
-1. Go to: https://www.r-project.org/
+1. Go to: [https://www.r-project.org](https://www.r-project.org)
 2. Click on the "download R" [link](https://cran.r-project.org/mirrors.html)
-3. Select a mirror site (ex: USA https://cran.cnr.berkeley.edu/)
+3. Select a mirror site (ex: USA [https://cran.cnr.berkeley.edu](https://cran.cnr.berkeley.edu))
 4. Click on the "Download R for (Mac) OS X" link
 5. Click on the .pkg file under *Latest release* section
 6. Install R
 
 ### RStudio
 
-https://rstudio.com/
+Follow these instructions: [https://rstudio.com/](https://rstudio.com/)
 
 ## Bonus
 
 ### Night Shift
 
-https://support.apple.com/fr-fr/HT207513
+[https://support.apple.com/fr-fr/HT207513](https://support.apple.com/fr-fr/HT207513)
 
-Alternative: F.lux https://justgetflux.com/
+Alternative: [F.lux](https://justgetflux.com)
 
 ### Gimp
 
-https://www.gimp.org/downloads/
+[Gimp](https://www.gimp.org/downloads)
 
 ### Inkscape
 
-https://inkscape.org/
+[Inkscape](https://inkscape.org)
 
 ### Latex
 
-1. Go to: https://www.latex-project.org/
+1. Go to: [https://www.latex-project.org](https://www.latex-project.org)
 2. Click on "get" [link](https://www.latex-project.org/get/)
 3. Click on "MacTeX" [link](http://www.tug.org/mactex/mactex-download.html) under Max OS

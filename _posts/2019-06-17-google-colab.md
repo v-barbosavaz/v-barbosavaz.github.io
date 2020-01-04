@@ -3,6 +3,8 @@ layout: post
 author: Vincent
 ---
 
+A quick tutorial to help you get started with Google Colaboratory.  
+
 From the definition of Google:
 
 > [Colaboratory](https://colab.research.google.com/) *is a research tool for machine learning education and research. It's a Jupyter notebook environment that requires no setup to use. With Colaboratory you can write and execute code, save and share your analyses, and access powerful computing resources, all for free from your browser.*

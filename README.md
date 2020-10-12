@@ -2,7 +2,7 @@
 
 This is my portfolio hosted on GitHub. I will publish there my last interests in data science field.
 
-[My Github Pages here : https://v-barbosavaz.github.io/](https://v-barbosavaz.github.io/)
+[My Github Pages here : https://vbarbosavaz.github.io/](https://vbarbosavaz.github.io/)
 
 ---
 

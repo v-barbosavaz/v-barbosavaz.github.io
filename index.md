@@ -5,8 +5,6 @@ title: Vincent Barbosa Vaz
 
 # Welcome to my GitHub Pages
 
-Content coming soon !
-
 ## Interests
 
 * <a href="https://ai.google/" target="_blank">Google AI</a> - AI, Google, Research
